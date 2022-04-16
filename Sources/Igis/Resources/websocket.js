@@ -220,7 +220,7 @@ function onAudioError(event) {
 function createAudio(id, sourceURL, shouldLoop) {
     let divAudios = document.getElementById("divAudios");
     let audio = document.createElement("audio");
-    audio.id = id;
+    /*audio.id = id;
     audio.src = sourceURL;
     if (shouldLoop === "true") {
 	audio.setAttribute("loop", "");
@@ -230,7 +230,7 @@ function createAudio(id, sourceURL, shouldLoop) {
     divAudios.appendChild(audio);
 
     let message = "onAudioProcessed|" + id;
-    doSend(message);
+    doSend(message);*/
 }
 
 function createTextMetric(id) {
