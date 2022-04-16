@@ -20,7 +20,7 @@ import NIO
 import NIOHTTP1
 import NIOWebSocket
 
-public class Igis {
+public class NewIgis {
     let resourcePath : String!
     let resourceDirectory : URL!
     let localHost : String!
